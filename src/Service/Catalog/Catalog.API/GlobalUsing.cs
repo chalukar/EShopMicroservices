@@ -2,3 +2,9 @@
 global using MediatR;
 global using Mapster;
 global using Microsoft.AspNetCore.Builder;
+global using Marten;
+global using BuildingBlocks.CQRS;
+global using Catalog.API.Models;
+global using Catalog.API.Exceptions;
+global using Microsoft.Extensions.Logging;
+global using FluentValidation;
